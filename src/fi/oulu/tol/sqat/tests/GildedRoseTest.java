@@ -157,7 +157,7 @@ public class GildedRoseTest {
 	}
 	
 	@Test
-	public void testUpdateEndOfDay_OrdinaryItemQualityIsNeverMoreThan50() {
+	public void testUpdateEndOfDay_ItemQualityDoesntIcreaseAbove50() {
 		GildedRose store = new GildedRose();
 		store.addItem(new Item("Backstage passes to a TAFKAL80ETC concert", 10, 50));
 		
